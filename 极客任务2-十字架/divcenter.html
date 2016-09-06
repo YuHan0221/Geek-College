@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>position</title>
+	<style type="text/css">
+		.mycenter{
+			width: 500px;
+			height: 400px;
+			margin:0 auto;
+			display: table;
+			position: absolute;
+			left: 50%;
+			top:50%;
+			/*可以把这个加上使得盒子居中*/
+			/*margin-left: -250px;
+			margin-top: -200px;*/
+		}
+		.inner{
+			position: relative;
+			/*也可以加上这个使得盒子居中*/
+			left: -50%;
+			top:-50%;
+			/*效果一样*/
+			background-color: green;
+			display: table-cell;
+			vertical-align: middle;
+			text-indent: 2em;
+		}
+	</style>
+</head>
+<body>
+	<div class="mycenter">
+		<div class="inner">
+			二十国集团聚集了世界主要经济体，影响和作用举足轻重，也身处应对风险挑战、开拓增长空间的最前沿。国际社会对二十国集团充满期待，对这次峰会寄予厚望。我们需要通过各自行动和集体合力，直面问题，共寻答案。希望杭州峰会能够在以往的基础上，为世界经济开出一剂标本兼治、综合施策的药方，让世界经济走上强劲、可持续、平衡、包容增长之路
+		</div>
+	</div>
+</body>
+</html>
