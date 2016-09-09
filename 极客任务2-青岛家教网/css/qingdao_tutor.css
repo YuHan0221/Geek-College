@@ -1,0 +1,176 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(../img/beijing.gif);
+}
+.wrapper{
+	background-color: white;
+	width: 640px;
+	line-height: 150%;
+	margin: 0 auto;
+	padding:10px 35px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 25px;
+}
+
+/*公共样式*/
+.light-red{
+	color:#ff0000;
+}
+.text-blue{
+	color:#0000ff;
+}
+.text-right{
+	text-align: right;
+	padding: 2px;
+}
+/*右侧内容的宽以及内边距*/
+.right-msg{
+	width: 496px;
+	padding: 2px;
+}
+.right-msg .blue{
+	color:#0000ff;
+	line-height: 150%;
+}
+.right-msg .red{
+	color:#ff0000;
+	line-height: 100%;
+}
+.right-msg .tableBorder{
+	width: 496px;
+}
+.right-msg .tableBorder td{
+	border: 0;
+}
+
+.title{
+	background-color: #EEEEEE;
+}
+.long-textarea{
+	width: 186px;
+	padding: 1px;
+}
+.short-textarea{
+	width: 126px;
+	padding:1px;
+}
+.long-select{
+	width: 190px;
+}
+.medium-select{
+	width: 75px;
+}
+input,textarea,select{
+	outline: none;
+	/*padding: 5px;*/
+}
+input[type="checkbox" i]{
+	margin: 3px 0.5ex;
+
+}
+.right-msg .teach-region{
+	margin-right: 2px;
+	margin-left: 5px;
+}
+.header-text{
+	height:25px;
+	text-align:left;
+	vertical-align:bottom;
+	width: 100%;
+}
+
+/*头部及导航栏样式*/
+header{
+	position: relative;
+}
+header nav{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+header nav a{	
+	font-size: 12px;
+	text-decoration: none;
+	color:rgb(255,0,153);
+	margin-right: 5px;
+}
+header nav a:hover{
+	color:rgb(0,255,0);
+}
+/*底部样式*/
+footer p{
+	font-size: 12px;
+	padding-top: 0;
+	padding-bottom:20px;
+}
+/*主体部分样式*/
+.content{
+	text-align: left; 
+}
+.content table{
+	width: 640px;
+	font-size: 12px;
+	line-height: 150%;
+	color:#333333;
+	border-collapse: collapse;
+}
+.content table td{
+	border:1px solid #ccc;
+	padding:2px;
+}
+caption{
+	margin:0 auto;
+	font-size: 18px;
+	font-weight: bold; 
+	margin-bottom: 20px;
+}
+.content .register-msg{
+	text-align: center;
+}
+/*表格h2样式*/
+.content table h2{
+	font-size: 13px;
+	color:#003399;
+	font-weight: 500;
+	background-color: #EEEEEE;
+	padding:2px;
+}
+
+/*出生年份去掉padding*/
+#birthday{
+	padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
